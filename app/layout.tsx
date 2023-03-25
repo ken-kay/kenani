@@ -2,6 +2,7 @@
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import { ThemeProvider } from 'next-themes'
+import Footer from '@/components/Footer'
 
 
 //import Link from 'next/link'
@@ -23,10 +24,11 @@ export default function RootLayout({
         <ThemeProvider enableSystem={true} attribute='class'>
           <Navbar />
           <main>
+            
           {children}
+          
           </main>
-          <footer>
-          </footer>
+          <Footer/>
         </ThemeProvider>
         </body>
     </html>
