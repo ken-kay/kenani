@@ -40,7 +40,7 @@ const Works = () => {
                     <div key={idx}>
                         <div className='flex flex-col md:flex-row md:space-x-12 '>
                         <div className='mt-12 md:w-1/2 hover:-translate-y-1'>
-                            <Link href={works.link} target='_blank'>
+                            <Link href={works.link} target='_blank' rel='noreferrer noopener'>
                             <Image 
                             src={works.image}
                             alt=''
@@ -59,13 +59,13 @@ const Works = () => {
                                 {works.description}
                             </p>
                             <div className='flex flex-row align-bottom space-x-4'>
-                                <Link href={works.github} target='_blank'>
+                                <Link href={works.github} target='_blank' rel='noreferrer noopener'>
                                     <BsGithub 
                                         size={30}
                                         className='hover:-translate-y-1 hover:text-pinky transition-transform cursor-pointer' 
                                     />
                                 </Link>
-                                <Link href={works.link} target='_blank'>
+                                <Link href={works.link} target='_blank' rel='noreferrer noopener'>
                                     <BsFillArrowUpRightCircleFill
                                         size={30}
                                         className='hover:-translate-y-1 hover:text-pinky transition-transform cursor-pointer animate-pulse' 

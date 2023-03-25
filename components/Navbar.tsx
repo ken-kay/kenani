@@ -2,10 +2,11 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 import { useTheme } from 'next-themes'
 import { RiMoonFill, RiSunLine } from 'react-icons/ri'
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import Home from '@/app/page'
+
 
 interface NavItem {
     label: string
@@ -15,7 +16,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
     {
         label: 'Home',
-        page: 'home',
+        page: './',
     },
     {
         label: 'About',
@@ -65,15 +66,20 @@ export const Navbar = () => {
                     >
                    <div className='items-center md:flex md:space-x-6 md:space-y-0'>
                     {NAV_ITEMS.map((item, idx) => {
-                        return <a key={idx} className='flex space-x-5 hover:text-pinky'>{item.label}</a>
+                        return <a key={idx} href={item.page} className='flex space-x-5 hover:text-pinky'>{item.label}</a>
+                        /*<Link key={idx} href={item.page} 
+                            className='flex space-x-5 hover:text-pinky'>
+                                {item.label}
+                        </Link>
+                        */
                     })}
                     {currentTheme === 'dark' ? (
-                        <button onClick={()=>setTheme('light')}
+                        <button type='button' aria-label='light mode' onClick={()=>setTheme('light')}
                         className='bg-slate hover:bg-pinky p-2 rounded-xl'>
                             <RiSunLine size={15} color='pinky'/>
                         </button>
                     ) : (
-                        <button onClick={()=>setTheme('dark')}
+                        <button type='button' aria-label='dark mode' onClick={()=>setTheme('dark')}
                         className='bg-slate hover:bg-pinky p-2 rounded-xl'>
                             <RiMoonFill size={15}/>
                         </button>
