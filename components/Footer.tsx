@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import { AiOutlineGithub, AiOutlineDribbble, AiOutlineLinkedin } from "react-icons/ai";
 

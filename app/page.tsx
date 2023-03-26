@@ -1,11 +1,8 @@
-// "use client"
+"use client"
 
 import { Hero } from '@/components/Hero'
 import AboutMe from '@/components/AboutMe'
 import Works from '@/components/Works'
-
-
-import styles from './global.css'
 
 
 export default function Home() {
