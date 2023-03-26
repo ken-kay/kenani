@@ -23,8 +23,8 @@ const NAV_ITEMS: Array<NavItem> = [
         page: 'about',
     },
     {
-        label: 'Projects',
-        page: 'projects',
+        label: 'Works',
+        page: 'works',
     },
     {
         label: 'Contact',

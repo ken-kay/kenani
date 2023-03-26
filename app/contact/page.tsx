@@ -1,7 +1,12 @@
+import React from 'react'
+import SayHi from "@/components/SayHi"
+// import styles from './global.css'
+
 export default function ContactPage() {
+    
     return (
-        <h1>
-            Say Hi!
-        </h1>
+        <main>
+            <SayHi/>
+        </main>
     )
 }

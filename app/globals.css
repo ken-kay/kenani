@@ -19,3 +19,18 @@ html {
   padding: 6rem;*/
   min-height: 100vh;
 }
+
+.contactInput {
+  @apply 
+  outline-none 
+  bg-slate-600 
+  rounded-sm 
+  border-b 
+  px-6 py-4 
+  border-[#242424]
+  text-gray-500
+  placeholder-gray-500
+  transition-all
+  focus:border-[#FFFFFF]/40
+  focus:text-[#FFFFFF]/40
+}
