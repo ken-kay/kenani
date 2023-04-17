@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Meow Script
+- Font Author: Copyright 2017 The Meow Script Project Authors (https://github.com/googlefonts/meow-script)
+- Font Source: http://fonts.gstatic.com/s/meowscript/v5/0FlQVPqanlaJrtr8AnJ0ESch0_0CfDf1.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
