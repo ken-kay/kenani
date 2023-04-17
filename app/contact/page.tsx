@@ -5,7 +5,7 @@ import SayHi from "@/components/SayHi"
 export default function ContactPage() {
     
     return (
-        <main>
+        <main className='mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl'>
             <SayHi/>
         </main>
     )

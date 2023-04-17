@@ -4,6 +4,7 @@
 import React from 'react'
 
 
+
 const skills = [
     { skill: 'HTML' },
     { skill: 'CSS' },
@@ -22,7 +23,7 @@ const AboutMe = () => {
   return (
     <section id='about-me'>
         <div className='my-12 pb-12 md:pt-16 md:pb-40'>
-            <h1 className='text-center font-bold text-5xl'>I am me</h1>
+            <h1 className='text-center font-bold text-5xl'>In a nutshell</h1>
             <hr className='w-9 h-1 mx-auto my-5 bg-pinky border-0 rounded'></hr>
             <div className='flex flex-col md:flex-row space-y-10 items-stretch justify-center align-top md:left md:p-4 md:space-y-0 md:space-x-10'>
                 <div className='md:w-1/2'>
@@ -53,6 +54,7 @@ const AboutMe = () => {
                 </div>
             </div>
         </div>
+
     </section>
   )
 }
