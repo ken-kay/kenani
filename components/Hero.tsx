@@ -18,7 +18,7 @@ export const Hero = () => {
                     I&#39;m a software developer with a passion for developing
                     user-friendly solutions to technical issues.
                 </p>
-                    <Link href='projects'
+                    <Link href='works'
                     className='text-neutral-100 font-semibold px-6 py-3 bg-pinky hover:bg-teal-300 rounded shadow'
                     >My work</Link>
                 
