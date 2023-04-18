@@ -33,7 +33,7 @@ const AboutMe = () => {
                     <p>
                         I have my Bachelor&#39;s in Software Engineering and graduated
                         back in 2021. I started working remotely in 2020 during my final
-                        year an have continued to build my experience as a remote developer.
+                        year and have continued to build my experience as a remote developer.
                     </p>
                     <p>
                         My hobbies include: art, music, gaming, basketball, 
