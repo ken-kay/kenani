@@ -22,11 +22,7 @@ export const Hero = () => {
                     className='text-neutral-100 font-semibold px-6 py-3 bg-pinky hover:bg-teal-300 rounded shadow'
                     >My work</Link>
                 
-            </div>
-
-            <div className='flex flex-row justify-center'>
-                <HiArrowDown className='animate-bounce' size={30}/>
-            </div>          
+            </div>       
         </div>
     </section>
   )
