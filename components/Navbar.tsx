@@ -2,12 +2,12 @@
 
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation';
+//import { usePathname } from 'next/navigation';
 import { useTheme } from 'next-themes'
 import { RiMoonFill, RiSunLine } from 'react-icons/ri'
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 
-
+import Image from 'next/image'
 interface NavItem {
     label: string
     page: string
@@ -45,7 +45,9 @@ export const Navbar = () => {
                     <div className='flex items-center justify-between py-3'>
                         <Link href='/'>
                             <div className='md:py-6 md:block'>
-                                <h1 className='font-bold hover:text-pinky'>KenKay</h1>
+                                <h1 className='font-bold hover:text-pinky text-2xl'>
+                                    Kenani
+                                </h1>
                             </div>
                         </Link>
                         
