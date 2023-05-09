@@ -39,13 +39,13 @@ export const Navbar = () => {
     const [ navbar, setNavbar ] = useState(false)
   
     return (
-        <header className='w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-sky'>
+        <header className='w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-manilla dark:bg-sky'>
             <div className='justify-between md:items-center md:flex '>
                 <div>
                     <div className='flex items-center justify-between py-3'>
                         <Link href='/'>
                             <div className='md:py-6 md:block'>
-                                <h1 className='font-bold hover:text-pinky text-2xl'>
+                                <h1 className="font-bold hover:text-pinky text-4xl font-['Kaushan_Script']">
                                     Kenani
                                 </h1>
                             </div>
@@ -68,7 +68,7 @@ export const Navbar = () => {
                     >
                    <div className='items-center md:flex md:space-x-6 md:space-y-0'>
                     {NAV_ITEMS.map((item, idx) => {
-                        return <a key={idx} href={item.page} className='flex space-x-5 hover:text-pinky'>{item.label}</a>
+                        return <a key={idx} href={item.page} className='flex space-x-5 hover:text-pinky text-2xl'>{item.label}</a>
                         /*<Link key={idx} href={item.page} 
                             className='flex space-x-5 hover:text-pinky'>
                                 {item.label}

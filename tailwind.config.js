@@ -23,7 +23,8 @@ module.exports = {
       },
       colors: {
         'pinky': '#FF0069',
-        'sky': '#72BADD'
+        'sky': '#1F305E',
+        'manilla': '#F7DCA9',
 
       },
     },
