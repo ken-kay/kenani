@@ -10,9 +10,9 @@ import { Poppins, Kaushan_Script, Permanent_Marker } from 'next/font/google'
 const poppins = Poppins({ subsets: ['devanagari', 'latin', 'latin-ext'], 
 weight: [ '100', '200', '300', '400', '500', '600', '700', '800', '900' ] })
 
-const kaushan_script = Kaushan_Script({weight: ['400']})
+const kaushan_script = Kaushan_Script({subsets:['latin'], weight: ['400']})
 
-const permanent_marker = Permanent_Marker({weight: ['400']})
+const permanent_marker = Permanent_Marker({subsets:['latin'], weight: ['400']})
 /*
 export const metadata = {
   title: 'Kenani',
