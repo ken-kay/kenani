@@ -25,6 +25,8 @@ module.exports = {
         'pinky': '#FF0069',
         'sky': '#1F305E',
         'manilla': '#F7DCA9',
+        'night': '#30333E',
+        'day': '#FFF9FB'
 
       },
     },

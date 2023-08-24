@@ -39,7 +39,7 @@ export const Navbar = () => {
     const [ navbar, setNavbar ] = useState(false)
   
     return (
-        <header className='w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-manilla dark:bg-sky'>
+        <header className='w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-day dark:bg-black'>
             <div className='justify-between md:items-center md:flex '>
                 <div>
                     <div className='flex items-center justify-between py-3'>

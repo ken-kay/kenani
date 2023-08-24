@@ -37,7 +37,7 @@ export const Footer = () => {
               />
           </a>
 
-          <a href='https://dribbble.com/kenkay_'
+          <a href='https://dribbble.com/_kenani'
             rel='noreferrer noopener'
             target='_blank'
             aria-label='Dribbble'
@@ -48,7 +48,7 @@ export const Footer = () => {
               />
           </a>
 
-          <a href='https://www.behance.net/kenanikenani'
+          <a href='https://www.behance.net/kenani_'
             rel='noreferrer noopener'
             target='_blank'
             aria-label='Behance'
@@ -61,7 +61,7 @@ export const Footer = () => {
 
           
 
-          <a href='https://codepen.io/ken-kay'
+          <a href='https://codepen.io/kenani'
             rel='noreferrer noopener'
             target='_blank'
             aria-label='CodePen'
